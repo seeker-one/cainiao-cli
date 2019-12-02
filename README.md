@@ -8,7 +8,7 @@
 
 ### 执行 `npm link`
 
-此时就可以使用 `luban` 命令了。
+此时就可以使用 `cn` 命令了。
 
 - `cn init vue-template myVue`
 - `cn config get`
