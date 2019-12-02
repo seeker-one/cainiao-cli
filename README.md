@@ -10,13 +10,13 @@
 
 此时就可以使用 `luban` 命令了。
 
-- `luban init vue-template myVue`
-- `luban config get`
-- `luban config set type orgs`
-- `luban config set registry vuejs-templates`
+- `cn init vue-template myVue`
+- `cn config get`
+- `cn config set type orgs`
+- `cn config set registry vuejs-templates`
 
-- `luban config set type users`
-- `luban config set registry YvetteLau`
+- `cn config set type users`
+- `cn config set registry lzc95`
 
 ### 发布
 

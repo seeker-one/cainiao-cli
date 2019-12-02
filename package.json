@@ -1,16 +1,16 @@
 {
-  "name": "luban-cli",
+  "name": "cainiao-cli",
   "version": "1.0.0",
-  "description": "<鲁班>脚手架",
-  "main": "index.js",
+  "description": "<菜鸟>脚手架",
+  "main": "main.js",
   "bin": {
-    "luban": "./bin/www"
+    "cn": "./bin/www"
   },
   "scripts": {
     "compile": "babel src -d dist",
     "watch": "npm run compile -- --watch"
   },
-  "author": "",
+  "author": "luozengchang",
   "license": "ISC",
   "dependencies": {
     "babel-cli": "^6.26.0",

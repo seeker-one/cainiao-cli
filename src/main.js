@@ -6,16 +6,16 @@ let actionMap = {
     init: {
         description: 'generate a new project from a template',
         usages: [
-            'luban init templateName projectName'
+            'cn init templateName projectName'
         ]
     },
     config: {
         alias: 'cfg',
-        description: 'config .lubanrc',
+        description: 'config .cnrc',
         usages: [
-            'luban config set <k> <v>',
-            'luban config get <k>',
-            'luban config remove <k>'
+            'cn config set <k> <v>',
+            'cn config get <k>',
+            'cn config remove <k>'
         ]
         
     },
@@ -65,7 +65,7 @@ program.on('-h', help);
 program.on('--help', help);
 program.version(VERSION, '-V --version').parse(process.argv);
 
-// luban 不带参数时
+// cn 不带参数时
 if (!process.argv.slice(2).length) {
     program.outputHelp(make_green);
 }

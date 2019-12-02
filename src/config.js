@@ -1,4 +1,4 @@
-// 管理 .lubanrc 文件 (当前用户目录下)
+// 管理 .cnrc 文件 (当前用户目录下)
 import { get, set, getAll, remove } from './utils/rc';
 
 let config = async (action, key, value) => {
