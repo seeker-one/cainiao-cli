@@ -6,8 +6,18 @@ import chalk from 'chalk';
 import symbol from 'log-symbols';
 
 let init = async (templateName, projectName) => {
+    if (typeof(templateName) == "undefined")
+    {
+        console.log('error:',chalk.red('The templateName not allowed undefined'));
+        return ;
+    }
     //项目不存在
     if (!fs.existsSync(projectName)) {
+        // 当项目名称为空时，复用模版名
+        if (typeof(projectName) == "undefined"){
+            projectName = templateName;
+        }
+        
         //命令行交互
         inquirer.prompt([
             {
