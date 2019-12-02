@@ -1,6 +1,6 @@
 {
   "name": "cainiao-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "<菜鸟>脚手架",
   "main": "main.js",
   "bin": {
